@@ -1,0 +1,204 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background: #333;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+
+  padding-block: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav ul :hover {
+  background-color: #e1eff0;
+  color: black;
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.profile-container {
+  width: 200px;
+  height: 210px;
+  margin: 20px auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #333;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.about {
+  padding: 40px;
+  padding-top: 20px;
+  background: rgb(222, 219, 217);
+  margin: 20px;
+  border-radius: 20px;
+  max-width: 960px;
+  text-align: left;
+  object-position: center;
+  margin-left: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+.section {
+  padding: 40px;
+  padding-top: 20px;
+  background: rgb(222, 219, 217);
+  margin: 20px;
+  border-radius: 20px;
+  max-width: 960px;
+  text-align: left;
+  object-position: center;
+  margin-left: 100px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
+.experience-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section :hover {
+  background-color: darkgray;
+  padding: 2px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  background-color: rgb(222, 219, 217);
+  padding: 20px;
+  margin: 20px;
+  margin-left: 100px;
+  min-width: 600px;
+  max-width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  object-position: center;
+}
+
+.project {
+  width: 250px;
+  border-radius: 30px;
+  overflow: visible;
+  text-align: center;
+  background: rgb(237, 235, 235);
+  padding: 10px;
+  display: flex;
+  padding-top: 60px;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  min-width: 700px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.projects-container :hover {
+  background-color: darkgray;
+}
+
+.project img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+h3 {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+#footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+#contactForm button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #0056b3;
+}
+
+.visitor-count {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#contact {
+  padding: 40px;
+  padding-top: 20px;
+  background: rgb(222, 219, 217);
+  margin: 20px;
+  border-radius: 20px;
+  max-width: 960px;
+  text-align: left;
+  object-position: center;
+  margin-left: 100px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
